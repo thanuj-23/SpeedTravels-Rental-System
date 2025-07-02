@@ -1,65 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EasyRide - Smart Transportation</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EasyRide Modern Navbar 2025</title>
+
+  <!-- ✅ Import Poppins from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-yXX..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar animate__animated animate__fadeInDown">
-            <div class="logo">
-                <img src="assets/logo.png" alt="EasyRide Logo">
-                <span>EasyRide</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">How It Works</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="auth-buttons">
-                <a href="login.php" class="btn btn-outline">Login</a>
-                <a href="register.php" class="btn btn-primary">Register</a>
-            </div>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </nav>
-        
-        <div class="hero animate__animated animate__fadeIn">
-            <h1>Smart Transportation <br>Made <span class="highlight">Easy</span></h1>
-            <p>Book your ride in seconds and enjoy comfortable transportation at affordable prices.</p>
-            <a href="book-ride.php" class="btn btn-primary btn-large">Book a Ride Now</a>
-        </div>
-        
-        <div class="hero-image animate__animated animate__fadeInRight">
-            <img src="assets/hero-image.png" alt="EasyRide App">
-        </div>
-    </header>
 
-    <section class="features">
-        <div class="feature-card animate__animated animate__fadeInUp">
-            <div class="icon"><img src="assets/icon-fast.png" alt="Fast"></div>
-            <h3>Fast Booking</h3>
-            <p>Get a ride in just a few taps on your smartphone.</p>
-        </div>
-        <div class="feature-card animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
-            <div class="icon"><img src="assets/icon-affordable.png" alt="Affordable"></div>
-            <h3>Affordable Prices</h3>
-            <p>Competitive pricing with no hidden charges.</p>
-        </div>
-        <div class="feature-card animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
-            <div class="icon"><img src="assets/icon-safety.png" alt="Safe"></div>
-            <h3>Safe Rides</h3>
-            <p>Verified drivers and real-time tracking for your safety.</p>
-        </div>
-    </section>
+  <nav>
+    <div class="nav-header">
+      <a href="#" class="logo">
+        <img src="img/logo3.png" alt="Speed Travels Logo" />
+      </a>
+      <div class="menu-toggle">☰</div>
+    </div>
 
-    <script src="main.js"></script>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Rentals <span>&#9662;</span></a>
+        <div class="dropdown-content">
+          <a href="#">Car with Driver</a>
+          <a href="#">Van with Driver</a>
+          <a href="#">Bus with Driver</a>
+          <a href="#">Truck with Driver</a>
+        </div>
+      </li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">FAQs</a></li>
+    </ul>
+
+    <div class="auth-buttons">
+      <a href="#" class="auth-btn host-btn">Become a host</a>
+    </div>
+  </nav>
+
+  <script src="js/navigation.js"></script>
+
+<br><br><br><br><br><br>
+<!-- footer -->
+<footer>
+  <div class="footer-top">
+    <a href="#" class="footer-logo">
+      <img src="img/logo3.png" alt="EasyRide Logo" />
+    </a>
+
+    <div class="footer-socials">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="footer-container">
+    <div class="footer-section contact-section">
+      <h4>Contact Us</h4>
+      <ul class="contact-list">
+        <li>
+        <a href="tel:+94729969961">+94 72 996 9961</a>
+        </li>
+
+        <li>
+        <li>
+        <a href="https://mail.google.com/mail/?view=cm&to=info@speed-travels.com" target="_blank">
+            info@speed-travels.com
+        </a>
+        </li>
+
+
+        <li> 236/1A, 3rd Lane, Pragathi Mawatha, Homagama</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Car with Driver</a></li>
+        <li><a href="#">Van with Driver</a></li>
+        <li><a href="#">Bus with Driver</a></li>
+        <li><a href="#">Truck with Driver</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Feedbacks</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Partners</h4>
+      <ul>
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Client</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-content">
+      <div class="copyright">
+        © 2025 - Digital Mobility Solutions Lanka PLC. All rights reserved.
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+
+      <div class="credits">
+        Web Design & Development by <a href="https://www.facebook.com/seasongraphix">Season Graphix</a>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
