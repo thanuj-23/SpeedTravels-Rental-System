@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EasyRide Modern Navbar 2025</title>
+  <title>Speed Travels</title>
 
   <!-- ✅ Import Poppins from Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/section1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-yXX..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <link rel="icon" href="../img/logo2.png" type="image/x-icon">
 </head>
 <body>
+
+<!-- Navigation Bar-->
 
   <nav>
     <div class="nav-header">
@@ -42,15 +45,32 @@
       <a href="#" class="auth-btn host-btn">Become a host</a>
     </div>
   </nav>
-
   <script src="js/navigation.js"></script>
 
-<br><br><br><br><br><br>
+  <!--Home 1st Section-->
+  <section id="hero">
+  <div class="hero-dots dot-1"></div>
+  <div class="hero-dots dot-2"></div>
+
+  <div class="container">
+    <div class="text-content">
+      <h2>Drive Your Journey, Your Way</h2>
+      <h1>Locally grown travel and tour service provider</h1>
+      <p>Experience unmatched freedom to explore Sri Lanka with Speed Travels – your reliable choice for cars, vans, buses, and trucks, backed by seamless service and local expertise.</p>
+    </div>
+  </div>
+
+  <div class="car-image">
+    <img src="img/car.png" alt="Premium Car">
+  </div>
+</section>
+
+<br><br><br><br><br>
 <!-- footer -->
 <footer>
   <div class="footer-top">
     <a href="#" class="footer-logo">
-      <img src="img/logo3.png" alt="EasyRide Logo" />
+      <img src="img/logo3.png" alt="Speed Travels Logo" />
     </a>
 
     <div class="footer-socials">

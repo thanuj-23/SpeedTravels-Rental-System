@@ -5,10 +5,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background-color: #f5f5f5;
-}
-
 nav {
   background: linear-gradient(to right, rgb(38, 49, 80) 60%, rgba(255,255,255,0));
   margin: 20px auto;
@@ -20,8 +16,12 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  position: relative;
   z-index: 1000;
+  position: fixed; /* Add fixed position */
+  top: 0; /* Start at top */
+  left: 0;
+  right: 0;
+  transition: top 0.3s; /* Smooth hide/show */
 }
 
 .logo {
