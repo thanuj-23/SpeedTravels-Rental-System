@@ -29,3 +29,4 @@ rentalsLink.addEventListener('click', function(e) {
 
     prevScrollPos = currentScrollPos;
   });
+
