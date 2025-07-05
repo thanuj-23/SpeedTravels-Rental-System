@@ -49,7 +49,7 @@
       </li>
       <li><a href="#">About Us</a></li>
       <li><a href="#">Contact Us</a></li>
-      <li><a href="#">FAQs</a></li>
+      <li><a href="../SpeedTravels-Rental-System/FAQs.php">FAQs</a></li>
     </ul>
 
     <div class="auth-buttons">
