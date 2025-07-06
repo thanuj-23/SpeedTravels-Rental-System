@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQs</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="img/logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/faqs.css">
@@ -24,14 +25,7 @@
     <ul class="nav-links">
       <li><a href="Home.php">Home</a></li>
       <li>
-        <a href="#">Rentals <span>&#9662;</span></a>
-        <div class="dropdown-content">
-          <a href="#">Car with Driver</a>
-          <a href="#">Van with Driver</a>
-          <a href="#">Bus with Driver</a>
-          <a href="#">Truck with Driver</a>
-        </div>
-      </li>
+        <a href="#">Rentals</a></li>
       <li><a href="#">About Us</a></li>
       <li><a href="#">Contact Us</a></li>
       <li><a href="../SpeedTravels-Rental-System/FAQs.php">FAQs</a></li>
@@ -149,7 +143,7 @@
     <div class="footer-section">
       <h4>Resources</h4>
       <ul>
-        <li><a href="#">FAQs</a></li>
+        <li><a href="FAQs.php">FAQs</a></li>
       </ul>
     </div>
   </div>

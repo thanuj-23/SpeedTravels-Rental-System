@@ -86,36 +86,6 @@ nav {
   color: rgb(164, 235, 42);
 }
 
-/* Dropdown Menu Styling */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 35px;
-  left: 0;
-  background-color: rgb(38, 49, 80);
-  min-width: 200px;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  z-index: 999;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-.dropdown-content a {
-  padding: 10px 20px;
-  color: white;
-  font-size: 14px;
-  transition: all 0.3s ease;
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(160, 227, 44);
-  color: rgb(38, 49, 80);
-}
-
-.nav-links li:hover .dropdown-content {
-  display: flex;
-}
 
 .auth-buttons {
   display: flex;
@@ -183,7 +153,6 @@ nav {
     width: 100%;
     display: none;
     margin-top: 15px;
-    background: rgb(38, 49, 80);
     border-radius: 0 0 10px 10px;
     overflow: hidden;
   }

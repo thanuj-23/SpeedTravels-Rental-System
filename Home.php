@@ -38,15 +38,7 @@
 
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
-      <li>
-        <a href="#">Rentals <span>&#9662;</span></a>
-        <div class="dropdown-content">
-          <a href="#">Car with Driver</a>
-          <a href="#">Van with Driver</a>
-          <a href="#">Bus with Driver</a>
-          <a href="#">Truck with Driver</a>
-        </div>
-      </li>
+      <li><a href="#">Rentals </a></li>
       <li><a href="#">About Us</a></li>
       <li><a href="#">Contact Us</a></li>
       <li><a href="../SpeedTravels-Rental-System/FAQs.php">FAQs</a></li>
@@ -428,7 +420,7 @@
     <div class="footer-section">
       <h4>Resources</h4>
       <ul>
-        <li><a href="#">FAQs</a></li>
+        <li><a href="FAQs.php">FAQs</a></li>
       </ul>
     </div>
   </div>
