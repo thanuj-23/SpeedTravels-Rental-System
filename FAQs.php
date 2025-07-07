@@ -151,7 +151,7 @@
   <div class="footer-bottom">
     <div class="footer-bottom-content">
       <div class="copyright">
-        © 2025 - Digital Mobility Solutions Lanka PLC. All rights reserved.
+         © Copyright 2025, All Rights Reserved by Speed Travels PLC.
       </div>
 
       <ul class="footer-links">
