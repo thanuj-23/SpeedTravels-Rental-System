@@ -1,0 +1,193 @@
+#searchMain{
+    background-color: rgba(208, 208, 252, 0.7);
+    margin-top: 8%;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#searchDetails{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#searchDetails .row{
+    margin-left: 10px;
+}
+
+#searchDetails h5{
+    text-align: center;
+    font-family: 'poppins';
+}
+
+#searchDetails h6{
+    margin-top: 15px;
+    font-family: 'poppins';
+}
+
+#searchDetails p{
+    margin-bottom: 0;
+    font-family: 'poppins';
+    font-size: 15px;
+}
+
+#vehicleDetails img{
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: auto;
+   
+}
+
+#vehicleDetails .allDetails{
+    background-color: rgb(255, 255, 255,0.9);
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+#vehicleDetails .allDetails:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 6px 3px rgba(187, 187, 187, 0.9);
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(167, 167, 167, 0.9);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(116,116,116,0.9);
+}
+
+#vehicleDetails .vehicleName{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#vehicleDetails i{
+   font-size: 18px;
+}
+
+#vehicleDetails i>span{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#vehicleDetails .Details p{
+    font-size: 15px;
+    font-family: 'poppins';
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#vehicleDetails .additionalCharges i{
+    color: green;
+    font-weight: 600;
+}
+
+#vehicleDetails .additionalCharges p{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+#vehicleDetails .additionalCharges p span{
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+}
+
+#vehicleDetails .bookingBtn{
+    width: 30%;
+    margin-left: 60%;
+    margin-top: 5px;
+    background-color: #7cb518;
+    border-radius: 20px;
+    color: white;
+}
+
+#vehicleDetails .bookingBtn:hover{
+    background-color: rgb(84, 131, 2);
+}
+
+#StepsAndHelp{
+    background-color: rgb(255, 255, 255,0.9);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#StepsAndHelp .circle{
+    margin-right: 5px;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background-color: #1c253d44;
+    color: #1c253d;
+    border: 2px solid #1c253d;
+}
+
+#StepsAndHelp .steps{
+    background-color: none;
+    font-size: 13px;
+    font-family: 'poppins';
+}
+
+#StepsAndHelp .hrVerticle{
+    font-weight: 700;
+    width: 20px;
+    transform: rotate(90deg);
+}
+
+#StepsAndHelp .helpDetails{
+    margin-left: 10px;
+}
+
+#StepsAndHelp p{
+    margin-left: 50px;
+    font-size: 14px;
+    margin-bottom: 3px;
+    font-family: 'poppins';
+    color: black;
+}
+
+#StepsAndHelp .helpDetails p{
+    margin-left: 0;
+    margin-bottom: 2px;
+    color: rgb(73, 73, 73);
+}
+
+
+
+
+
+/* responsive */
+@media(max-width:768px){
+    #searchMain{
+        margin-top: 20%;
+    }
+    #searchDetails{
+        margin: 20px;
+    }
+    #vehicleDetails img{
+        margin: 0% 15%;
+        width: 70%;
+        height: 90%;
+    }
+    #vehicleDetails{
+        margin-left: 15px;
+    }
+    #StepsAndHelp{
+        width: 95%;
+        padding: 15px;
+        margin-left: 15px;
+    }
+    #StepsAndHelp h4,
+    #StepsAndHelp h5{
+        padding-left: 10%
+    }
+    #StepsAndHelp div{
+        padding-left: 11%;
+    }
+    #StepsAndHelp .col-10{
+        padding-left: 0px;
+    }
+    #StepsAndHelp .number{
+        margin-bottom: 10px;
+        margin-left: 30%;
+    }
+}
