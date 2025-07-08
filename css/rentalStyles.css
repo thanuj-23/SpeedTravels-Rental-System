@@ -1,0 +1,84 @@
+#searchForm {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  height: 100vh;
+  width: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7); /* dark background */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+
+#searchRental {
+  background-color: rgb(215, 215, 215,1);
+  padding: 25px;
+  left: 25%;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#searchRental label{
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#searchRental input,
+#searchRental select,
+#searchRental option{
+  color: rgb(65, 65, 65);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+#searchRental .topic {
+  text-align: center;
+}
+
+#searchRental .topic h3 {
+  color: rgb(45, 65, 120);
+  font-family: 'poppins';
+  font-weight: bolder;
+}
+
+#searchRental .topic p{
+  font-family: 'poppins';
+}
+
+#searchRental input:focus,
+#searchRental select:focus {
+  border-color: #7cb518;
+  outline: none; /* Disable default outline */
+  box-shadow: 0 0 0 2px #7cb518;
+}
+
+
+#searchRental .btn {
+  margin: 0 10%;
+  margin-top: 5%;
+  padding: 8px;
+  width: 80%;
+  background-color: #7cb518;
+  border-radius: 20px;
+  justify-content: space-around;
+  color: white;
+  font-family: 'poppins';
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#searchRental .btn:hover{
+  background-color: #5e9205;
+}
