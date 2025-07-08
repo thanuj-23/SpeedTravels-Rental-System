@@ -1,0 +1,487 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+  margin-top: 5px;
+  padding-top: 100px;
+}
+/*Description Section with Full Image Background */
+.description-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url('../img/bgBus.jpg');
+  background-size: cover; /* Changed from 100% to cover for better scaling */
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  animation: driveAnimation 20s linear infinite; /* Added animation */
+}
+
+@keyframes driveAnimation {
+  0% { background-size: 100%; }
+  100% { background-size: 150%; }
+}
+.description-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.description-content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.description-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.description-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+
+.btn-description {
+  background-color: #a0e32c;
+  color: white;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  border: none;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-description:hover {
+  background-color: #8cc922;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(160, 227, 44, 0.6);
+}
+
+.benefits-section {
+  border-radius: 20px;
+  padding: 60px 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.benefits-title {
+  color: rgb(38, 49, 80);
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.benefit-box {
+  background: #dcfad3;
+  border-radius: 20px;
+  padding: 35px 25px;
+  min-height: 260px;
+  max-width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+
+  /* Initial scroll state */
+  opacity: 0;
+  transform: rotateX(180deg);
+  transform-origin: top;
+   transition: transform 1.5s ease, opacity 1.5s ease;
+  backface-visibility: hidden;
+}
+
+/* On scroll animation */
+.benefit-box.animate {
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+
+/* On hover zoom only (do not override rotateX) */
+.benefit-box:hover {
+  transform: rotateX(0deg) scale(1.05);
+  z-index: 2;
+  box-shadow: 0 15px 30px rgba(160, 227, 44, 0.2);
+  background-color: #edffce;
+}
+
+
+.benefit-box h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #263150;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+.benefit-box p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #555;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.benefits-section .row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-section {
+  border-radius: 20px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2),
+              0 -10px 25px -5px rgba(0, 0, 0, 0.2);
+  padding: 50px 40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.form-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #263150;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-section p {
+  font-size: 18px;
+  color: #666;
+}
+.section-heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #263150;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #a0e32c;
+  padding-bottom: 6px;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #263150;
+  margin-bottom: 5px;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.iti {
+  width: 100%;
+}
+
+.iti input[type="tel"] {
+  width: 100% !important;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.iti input[type="tel"]:focus {
+  border-color: #a0e32c;
+  box-shadow: 0 0 0 0.2rem rgba(160, 227, 44, 0.25);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #a0e32c;
+  box-shadow: 0 0 0 0.2rem rgba(160, 227, 44, 0.25);
+}
+
+.is-invalid {
+  border-color: #dc3545 !important;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+  font-size: 0.875em;
+  margin-top: 0.25rem;
+}
+
+/* Year Picker Styles */
+.yearpicker-container {
+    position: absolute;
+    color: #000;
+    background: #fff;
+    z-index: 10;
+    margin-top: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    padding: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    width: 250px;
+}
+
+.yearpicker-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.yearpicker-prev, .yearpicker-next {
+    cursor: pointer;
+    padding: 5px 10px;
+    background: #f8f9fa;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.yearpicker-prev:hover, .yearpicker-next:hover {
+    background: #e9ecef;
+}
+
+.yearpicker-year {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.yearpicker-year:hover {
+    background: #f8f9fa;
+}
+
+.yearpicker-year.selected {
+    background: #0d6efd;
+    color: white;
+}
+.yearpicker-prev:disabled, .yearpicker-next:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+/* Style for Year Picker Dropdown */
+.yearpicker-popup {
+  position: absolute;
+  z-index: 1000;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.yearpicker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #263150;
+}
+
+.yearpicker-header button {
+  background-color: #a0e32c;
+  color: #fff;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.yearpicker-header button:hover:not(:disabled) {
+  background-color: #8cc922;
+}
+
+.yearpicker-year {
+  width: 60px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #263150;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.yearpicker-year:hover {
+  background-color: #f1ffe0;
+  border-color: #a0e32c;
+}
+
+.yearpicker-year.selected {
+  background-color: #a0e32c;
+  color: white;
+  border-color: #a0e32c;
+}
+
+.btn-custom {
+  background: linear-gradient(135deg, #a0e32c, #7cb518);
+  border: none;
+  font-size: 18px;
+  padding: 12px 36px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  color: white;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(135deg, #8cc922, #699e13);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(124, 181, 24, 0.3);
+  color: white;
+}
+
+.btn-custom:active {
+  color: #ffffff !important;
+}
+
+
+@media (max-width: 768px) {
+  .opportunities-title {
+    font-size: 28px;
+  }
+  
+  .opportunities-subtitle {
+    font-size: 16px;
+  }
+  
+}
+@media (max-width: 576px) {
+  .benefit-box {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+}
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .description--title {
+    font-size: 2.2rem;
+  }
+  
+  .description--subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .description--section {
+    padding: 70px 20px;
+  }
+  
+  .description--title {
+    font-size: 1.8rem;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .description--section {
+    padding: 50px 15px;
+  }
+  
+  .description--title {
+    font-size: 1.5rem;
+  }
+  
+  .benefit-box {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+}
+.form-section {
+  animation: fadeInUp 1s ease both;
+}
+
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 18px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border: 1.5px solid #198754;
+  border-radius: 10px;
+  margin: 100px auto 40px;
+  max-width: 500px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  z-index: 1;
+  position: relative;
+}
+
+.thankyou-container h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  color: #659316;
+}
+
+.thankyou-container p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.thankyou-container .btn-custom {
+  background: linear-gradient(135deg, #a0e32c, #7cb518);
+  border: none;
+  font-size: 1rem;
+  padding: 10px 30px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  color: white;
+  margin-top: 20px;
+}
+
+.thankyou-container .btn-custom:hover {
+  background: linear-gradient(135deg, #8cc922, #699e13);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(124, 181, 24, 0.3);
+  color: white;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
