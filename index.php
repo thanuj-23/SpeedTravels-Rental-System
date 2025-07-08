@@ -106,7 +106,9 @@
 
     <script src="js/section2.js"></script>
     <!--Review section -->
-    <br>
+    <section class="how-it-works" data-aos="fade-up" data-aos-duration="" style="margin-top:-80px;">
+     <h2 class="section-title" data-aos="fade-up" data-aos-duration="">OUR PASSENGER'S TESTIMONIALS</h2>
+    </section>
     <section class="reviews-section" data-aos="fade-left" data-aos-duration="" style="margin-left:80px; margin-right:80px;">
         <script defer async src='https://cdn.trustindex.io/loader.js?f646916496036110d036012a70e'></script>
     </section>
