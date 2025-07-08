@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/section1.css">
     <link rel="stylesheet" href="css/section2.css">
     <link rel="stylesheet" href="css/section4.css">
-    <link rel="stylesheet" href="css/scrollanimation.css>
     <!-- bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- rental booking css -->
