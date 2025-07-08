@@ -3,7 +3,7 @@
 
   <!--Home 1st Section-->
   <section id="hero">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="">
             <div class="text-content">
                 <h2>Drive Your Journey, Your Way</h2>
                 <h1>Locally grown travel and tour service provider</h1>
@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        <div class="right-sec">
+        <div class="right-sec" data-aos="fade-out" data-aos-duration="">
             <div class="my-car">
                 <div><img src="img/v1.png" alt="Car 1"></div>
                 <div><img src="img/van.png" alt="Car 2"></div>
@@ -25,7 +25,7 @@
    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <!--search bar-->
-<div class="compact-search-bar" id="searchBar">
+<div class="compact-search-bar" id="searchBar" data-aos="zoom-out" data-aos-duration="">
         <div class="compact-search-container">
             <!-- Location Field -->
             <div class="compact-search-field">
@@ -71,237 +71,76 @@
 
 <script src="js/section1.js"></script>
 <br><br>
-<!--section2 -->
-<section class="how-it-works">
-  <h2 class="section-title">HOW IT WORKS</h2>
-  <p class="section-subtitle">Follow these simple steps to book your vehicle</p>
-  <br><br>
-  <div class="steps-container">
-    <div class="step">
-      <div class="step-number"><i class="fas fa-map-marker-alt"></i></div>
-      <h3 class="step-title">Select Location & Pick Up </h3>
-      <p class="step-description">Choose your location & pick-up location.</p>
-    </div>
-    
-    <div class="step">
-      <div class="step-number"><i class="fas fa-car-side"></i></div>
-      <h3 class="step-title">Choose Vehicle Type</h3>
-      <p class="step-description">Select your preferred vehicle type for your trip.</p>
-    </div>
-    
-    <div class="step">
-      <div class="step-number"><i class="fas fa-calendar-alt"></i></div>
-      <h3 class="step-title">Pick Up - Drop Off Dates</h3>
-      <p class="step-description">Choose your pickup and drop-off dates for booking.</p>
-    </div>
-    
-    <div class="step">
-      <div class="step-number"><i class="fas fa-search"></i></div>
-      <h3 class="step-title">Search & Book</h3>
-      <p class="step-description">Click search to view and book the best available vehicle.</p>
-    </div>
-  </div>
-</section>
 
-<script src="js/section2.js"></script>
-<!--Review section -->
-<br>
-<section class="reviews-section">
-        <div class="section-header">
-            <h2 class="section-title">Our Passenger's Testimonials</h2>
+    <!--section2 -->
+    <section class="how-it-works" data-aos="fade-up" data-aos-duration="">
+    <h2 class="section-title" data-aos="fade-up" data-aos-duration="">HOW IT WORKS</h2>
+    <p class="section-subtitle" data-aos="fade-up" data-aos-duration="">Follow these simple steps to book your vehicle</p>
+    <br><br>
+    <div class="steps-container" data-aos="slide-up" data-aos-duration="">
+        <div class="step">
+        <div class="step-number"><i class="fas fa-map-marker-alt"></i></div>
+        <h3 class="step-title">Select Location & Pick Up </h3>
+        <p class="step-description">Choose your location & pick-up location.</p>
         </div>
         
-        <div class="reviews-slider">
-            <div class="reviews-track">
-                <!-- Original Review Cards -->
-                <div class="review-card">
-                    <div class="stars">★★★★★</div>
-                    <div class="review-header">
-                        <div class="user-avatar">SP</div>
-                        <div class="user-info">
-                            <div class="user-name">Saman Perera</div>
-                            <div class="review-meta">
-                                <span class="review-date">2 days ago on Google</span>
-                                <i class="fas fa-check-circle verified-badge"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Excellent service! The driver was very professional and the car was extremely clean.
-                    </div>
-                </div>
-                
-                <div class="review-card">
-                    <div class="stars">★★★★★</div>
-                    <div class="review-header">
-                        <div class="user-avatar">NJ</div>
-                        <div class="user-info">
-                            <div class="user-name">Nimal Jayawardena</div>
-                            <div class="review-meta">
-                                <span class="review-date">1 week ago on Google</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Booked for airport transfer. Driver arrived 10 minutes early. Very reasonable rates compared to other services in Colombo. Highly recommended!
-                    </div>
-                </div>
-                
-                <div class="review-card">
-                    <div class="stars">★★★★☆</div>
-                    <div class="review-header">
-                        <div class="user-avatar">RF</div>
-                        <div class="user-info">
-                            <div class="user-name">Rasika Fernando</div>
-                            <div class="review-meta">
-                                <span class="review-date">3 days ago on Google</span>
-                                <i class="fas fa-check-circle verified-badge"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Good service overall.
-                    </div>
-                </div>
-                
-                <div class="review-card">
-                    <div class="stars">★★★★★</div>
-                    <div class="review-header">
-                        <div class="user-avatar">KM</div>
-                        <div class="user-info">
-                            <div class="user-name">Kavindu Madushanka</div>
-                            <div class="review-meta">
-                                <span class="review-date">5 days ago on Google</span>
-                                <i class="fas fa-check-circle verified-badge"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Great experience booking my vehicle with them. The driver was friendly and arrived right on time. Highly recommend their service for trips around Colombo.
-                    </div>
-                </div>
-
-                <div class="review-card">
-                    <div class="stars">★★★★★</div>
-                    <div class="review-header">
-                        <div class="user-avatar">IS</div>
-                        <div class="user-info">
-                            <div class="user-name">Ishara Senanayake</div>
-                            <div class="review-meta">
-                                <span class="review-date">2 weeks ago on Google</span>
-                                <i class="fas fa-check-circle verified-badge"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Booked a van for our family trip to Kandy. Comfortable ride and reasonable prices. Booking process was smooth and support staff were helpful.
-                    </div>
-                </div>
-
-                <div class="review-card">
-                    <div class="stars">★★★★☆</div>
-                    <div class="review-header">
-                        <div class="user-avatar">TR</div>
-                        <div class="user-info">
-                            <div class="user-name">Tharushi Rajapaksha</div>
-                            <div class="review-meta">
-                                <span class="review-date">1 month ago on Google</span>
-                                <i class="fas fa-check-circle verified-badge"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Service was good overall. The app interface can be improved slightly, but drivers are polite and cars are well maintained. Would use again.
-                    </div>
-                </div>
-
-                <!-- Duplicate cards for seamless looping -->
-                <div class="review-card">
-                    <div class="stars">★★★★★</div>
-                    <div class="review-header">
-                        <div class="user-avatar">SP</div>
-                        <div class="user-info">
-                            <div class="user-name">Saman Perera</div>
-                            <div class="review-meta">
-                                <span class="review-date">2 days ago on Google</span>
-                                <i class="fas fa-check-circle verified-badge"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Excellent service! The driver was very professional and the car was extremely clean.
-                    </div>
-                </div>
-                
-                <div class="review-card">
-                    <div class="stars">★★★★★</div>
-                    <div class="review-header">
-                        <div class="user-avatar">NJ</div>
-                        <div class="user-info">
-                            <div class="user-name">Nimal Jayawardena</div>
-                            <div class="review-meta">
-                                <span class="review-date">1 week ago on Google</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Booked for airport transfer. Driver arrived 10 minutes early. Very reasonable rates compared to other services in Colombo. Highly recommended!
-                    </div>
-                </div>
-                
-                <div class="review-card">
-                    <div class="stars">★★★★☆</div>
-                    <div class="review-header">
-                        <div class="user-avatar">RF</div>
-                        <div class="user-info">
-                            <div class="user-name">Rasika Fernando</div>
-                            <div class="review-meta">
-                                <span class="review-date">3 days ago on Google</span>
-                                <i class="fas fa-check-circle verified-badge"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review-content">
-                        Good service overall.
-                    </div>
-                </div>
-            </div>
+        <div class="step">
+        <div class="step-number"><i class="fas fa-car-side"></i></div>
+        <h3 class="step-title">Choose Vehicle Type</h3>
+        <p class="step-description">Select your preferred vehicle type for your trip.</p>
         </div>
         
-        <div class="review-actions">
-            <a href="https://www.google.com/search?q=speed+travels+pvt+ltd.&sca_esv=77f2c073bf32388c&hl=en-LK&gl=lk&sxsrf=AE3TifNymu4fppr9h22vfsMQ54m-lBP0ug%3A1751862307536&ei=I0xraNPBIKiYseMPmLbtkQE&ved=0ahUKEwiT36TU86mOAxUoTGwGHRhbOxIQ4dUDCBA&uact=5&oq=speed+travels+pvt+ltd.&gs_lp=Egxnd3Mtd2l6LXNlcnAiFnNwZWVkIHRyYXZlbHMgcHZ0IGx0ZC4yAhAmMggQABiABBiiBDIIEAAYgAQYogQyCBAAGKIEGIkFMggQABiiBBiJBTIFEAAY7wVI_2BQsApYgV5wAngBkAEEmAHZA6AB8i2qAQowLjE4LjUuMS4zuAEDyAEA-AEBmAIZoAKLJKgCEsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIKECMYgAQYJxiKBcICChAuGIAEGEMYigXCAhAQLhiABBgUGIcCGMcBGK8BwgIFEAAYgATCAgsQLhiABBjHARivAcICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQHCAgcQIxgnGOoCwgINECMY8AUYJxjJAhjqAsICFhAuGIAEGEMYtAIYyAMYigUY6gLYAQHCAhwQLhiABBhDGLQCGMcBGMgDGIoFGOoCGK8B2AEBwgIEECMYJ8ICDRAuGIAEGLEDGEMYigXCAg4QABiABBixAxiDARiKBcICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYxwEYigXCAhAQIxjwBRiABBgnGMkCGIoFwgIQEC4YgAQYQxjHARiKBRivAcICDhAAGIAEGJECGLEDGIoFwgIKEAAYgAQYQxiKBcICDRAAGIAEGLEDGEMYigXCAhAQABiABBixAxhDGIMBGIoFwgIREC4YgAQYkQIYxwEYigUYrwHCAhAQABiABBixAxiDARgUGIcCwgINEAAYgAQYsQMYFBiHAsICCBAAGIAEGLEDwgIREC4YgAQYsQMY0QMYgwEYxwHCAgsQABiABBiRAhiKBcICChAjGPAFGCcYyQLCAg0QABiABBixAxiDARgKwgIHEAAYgAQYCsICBRAuGIAEwgIKEAAYgAQYFBiHAsICBxAuGIAEGArCAgYQABgWGB6YAxjxBQSlAtA9tMnViAYBkAYSugYGCAEQARgJkgcHMi4xMi4xMaAH-pACsgcHMC4xMi4xMbgH3SPCBwoyLTQuMTQuNi4xyAeAAw&sclient=gws-wiz-serp&lqi=ChZzcGVlZCB0cmF2ZWxzIHB2dCBsdGQuWhciFXNwZWVkIHRyYXZlbHMgcHZ0IGx0ZJIBDXRyYXZlbF9hZ2VuY3mqAU0KDS9nLzExeG4waF9wN3MQATIfEAEiG-Cy-qdt9K1HjIemd4PXCozPLchJ7luZXpBtIjIZEAIiFXNwZWVkIHRyYXZlbHMgcHZ0IGx0ZA#lkt=LocalPoiReviews&rlimm=11143696391828097285&lrd=0x3ae251f08774db81:0x9aa65cd397b74905,3,,,," 
-               target="_blank" 
-               class="google-btn">
-                <i class="fab fa-google"></i> Review Us on Google
-            </a>
+        <div class="step">
+        <div class="step-number"><i class="fas fa-calendar-alt"></i></div>
+        <h3 class="step-title">Pick Up - Drop Off Dates</h3>
+        <p class="step-description">Choose your pickup and drop-off dates for booking.</p>
         </div>
+        
+        <div class="step">
+        <div class="step-number"><i class="fas fa-search"></i></div>
+        <h3 class="step-title">Search & Book</h3>
+        <p class="step-description">Click search to view and book the best available vehicle.</p>
+        </div>
+    </div>
     </section>
 
-<!-- CLIENT N HOST -->
-         <!-- Rent Section (New) -->
-        <section class="section rent-section">
-            <div class="section-content">
-                <h2>Rent With Us</h2>
-                <p>Discover your next ride with Speed Travels. From city drives to long journeys, choose from our wide range of vehicles and enjoy a smooth, reliable, and affordable travel experience.</p>
-                <a href="#" class="learn-more rent-btn">Explore Rentals →</a>
-            </div>
-            <div class="section-image">
-                <img src="../SpeedTravels-Rental-System/img/img1.jpg" alt="Rent with PickMe">
-            </div>
-        </section>
-        
-        <!-- Host Section (New) -->
-        <section class="section host-section">
-            <div class="section-image">
-                <img src="../SpeedTravels-Rental-System/img/img2.jpg" alt="Host with PickMe">
-            </div>
-            <div class="section-content">
-                <h2>Become a Host</h2>
-                <p>Unlock new income opportunities by listing your vehicle on Speed Travels. Rent out your car safely to verified customers and earn without any hassle.</p>
-                <a href="#" class="learn-more host-btn">Start Hosting →</a>
-            </div>
-        </section>
-    </div>
+    <script src="js/section2.js"></script>
+    <!--Review section -->
+    <br>
+    <section class="reviews-section" data-aos="fade-left" data-aos-duration="">
+        <script defer async src='https://cdn.trustindex.io/loader.js?f646916496036110d036012a70e'></script>
+</section>
+
+    <!-- CLIENT N HOST -->
+            <!-- Rent Section (New) -->
+            <section class="section rent-section" data-aos="fade-left" data-aos-duration="">
+                <div class="section-content">
+                    <h2>Rent With Us</h2>
+                    <p>Discover your next ride with Speed Travels. From city drives to long journeys, choose from our wide range of vehicles and enjoy a smooth, reliable, and affordable travel experience.</p>
+                    <a href="#" class="learn-more rent-btn">Explore Rentals →</a>
+                </div>
+                <div class="section-image">
+                    <img src="../SpeedTravels-Rental-System/img/img1.jpg" alt="Rent with PickMe">
+                </div>
+            </section>
+            
+            <!-- Host Section (New) -->
+            <section class="section host-section" data-aos="fade-right" data-aos-duration="">
+                <div class="section-image">
+                    <img src="../SpeedTravels-Rental-System/img/img2.jpg" alt="Host with PickMe">
+                </div>
+                <div class="section-content">
+                    <h2>Become a Host</h2>
+                    <p>Unlock new income opportunities by listing your vehicle on Speed Travels. Rent out your car safely to verified customers and earn without any hassle.</p>
+                    <a href="#" class="learn-more host-btn">Start Hosting →</a>
+                </div>
+            </section>
+        </div>
+            <!-- aos animation -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+            AOS.init();
+        </script>
 
 <!-- include footer file -->
 <?php include 'footer.php'; ?>

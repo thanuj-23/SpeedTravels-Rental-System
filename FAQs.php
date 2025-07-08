@@ -28,7 +28,7 @@
       </div>
       
       <!-- Customer FAQs -->
-      <div class="faq-accordion" id="customer-faqs">
+      <div class="faq-accordion" id="customer-faqs" data-aos="fade-out" data-aos-duration="">
         <!-- FAQ Items will be loaded here -->
       </div>
       
@@ -37,7 +37,7 @@
         <!-- FAQ Items will be loaded here -->
       </div>
       
-      <div class="faq-contact">
+      <div class="faq-contact" data-aos="fade-out" data-aos-duration="">
         <h3>Still have questions?</h3>
         <p>Contact our support team for more information and assistance.</p>
         <a href="/contact">Contact Us</a>
