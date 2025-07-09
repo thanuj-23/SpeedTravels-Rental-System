@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     <!-- main content area --- start -->
-    <div class="container-xxl" id="searchMain">
+    <div class="container-xl" id="searchMain">
         <div class="row">
             <!-- show customer searching details-->
             <div class="col-md-3">
@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>                                
                             </div>
                             <div class="row">
-                                <button class="btn bookingBtn">Booking Now</button>
+                                <a class="btn bookingBtn" href="./BookingDetails.php">Booking Now</a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>                                
                             </div>
                             <div class="row">
-                                <button class="btn bookingBtn">Booking Now</button>
+                                <a class="btn bookingBtn" href="./BookingDetails.php">Booking Now</a>
                             </div>
                         </div>
                     </div>
