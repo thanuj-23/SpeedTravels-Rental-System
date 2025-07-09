@@ -1,0 +1,130 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.terms-container {
+  max-width: 950px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: rgba(249, 249, 249, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 1s ease forwards;
+  margin-top: 100px;
+}
+
+.terms-container h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #263150;
+  animation: slideInDown 0.8s ease forwards;
+  font-family: 'poppins';
+}
+
+.terms-container h2 {
+  margin-top: 35px;
+  color: #263150;
+  font-size: 1.25rem;
+  border-left: 4px solid #a0e32c;
+  padding-left: 10px;
+  animation: slideInLeft 0.8s ease forwards;
+}
+
+.terms-container p,
+.terms-container ul {
+  color: rgb(55, 55, 55);
+  margin: 12px 0;
+  font-size: 0.98rem;
+  line-height: 1.8;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.terms-container ul {
+  padding-left: 20px;
+}
+
+.terms-container ul li {
+  margin-bottom: 8px;
+}
+
+.contact-info {
+  background: #a0e32c;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  animation: fadeIn 1s ease forwards;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+p.centered {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .terms-container {
+    margin: 20px;
+    margin-top: 100px;
+    padding: 25px 15px;
+  }
+
+  .terms-container h1 {
+    font-size: 1.7rem;
+  }
+
+  .terms-container h2 {
+    font-size: 1.1rem;
+  }
+}
