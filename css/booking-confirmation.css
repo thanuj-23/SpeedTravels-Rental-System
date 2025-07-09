@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f7fa;
 }
 
@@ -51,10 +51,11 @@ body {
   width: 100%;
   padding: 15px 25px;
   border-radius: 18px;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2),
-    /* bottom */ 0 -10px 25px -5px rgba(0, 0, 0, 0.2),
-    /* top */ 10px 0 25px -5px rgba(0, 0, 0, 0.2),
-    /* right */ -10px 0 25px -5px rgba(0, 0, 0, 0.2); /* left */
+  box-shadow: 
+  0 10px 25px -5px rgba(0, 0, 0, 0.2),   /* bottom */
+  0 -10px 25px -5px rgba(0, 0, 0, 0.2),  /* top */
+  10px 0 25px -5px rgba(0, 0, 0, 0.2),   /* right */
+  -10px 0 25px -5px rgba(0, 0, 0, 0.2);  /* left */
   animation: fadeIn 1s ease-out;
   text-align: center;
   margin-top: 90px;
@@ -110,7 +111,6 @@ body {
 
 /* Button */
 .explore-button {
-  text-decoration: none;
   background-color: #a0e32c;
   color: #fff;
   padding: 12px 28px;

@@ -1,8 +1,15 @@
     /* FAQ Page Styles */
+
+    body {
+      background: url('../img/faqs.png') center center/cover no-repeat;
+      background-size: 100%;
+      background-position-y: -40px;
+    }
     .faq-section {
       padding: 80px 0;
-       background: url('../img/faqs.png') center center/cover no-repeat;
+      background: url('img/faqs.png') center center/cover no-repeat;
        background-size: 100%;
+       overflow: hidden;
       font-family: 'Arial', sans-serif;
     }
 

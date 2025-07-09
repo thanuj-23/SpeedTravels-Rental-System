@@ -24,16 +24,26 @@
   $result = $stmt->get_result();
   $booking = $result->fetch_assoc();*/
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Complete Booking | Speed Travels</title>
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/booking-details.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  <link rel="icon" href="imgs/logo2.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
 
-<!-- include header file -->
-<?php   include 'header.php'; ?>
+<!-- Header -->
+<?php include 'header.php'; ?>
 
-<style>
-  <?php include './css/booking-details.css' ?>
-</style>
-
-<!-- main content -- start -->
-<div>
 <section class="booking-page">
   <div class="booking-wrapper">
 
@@ -114,12 +124,12 @@
     </div>
   </div>
 </section>
-</div>
-<!-- main content -- end -->
 
-<script src="js/districtSelect.js" defer></script>
-<script src="js/phoneInput.js"></script>
-
-
-<!-- include footer file -->
+<!-- Footer -->
 <?php include 'footer.php'; ?>
+  <!--JS Files-->
+  <script src="js/navigation.js"></script>
+  <script src="js/districtSelect.js" defer></script>
+  <script src="js/phoneInput.js"></script>
+</body>
+</html>

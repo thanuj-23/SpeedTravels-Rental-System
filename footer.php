@@ -1,5 +1,5 @@
 <!-- footer -->
-<footer>
+<footer data-aos="fade-up" data-aos-duration="">
   <div class="footer-top">
     <a href="#" class="footer-logo">
       <img src="img/logo3.png" alt="Speed Travels Logo" />
@@ -78,7 +78,7 @@
       </div>
 
       <ul class="footer-links">
-        <li><a href="./terms.php">Terms & Conditions</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
         <li><a href="#">Privacy Policy</a></li>
       </ul>
 
@@ -91,6 +91,10 @@
 
 <!-- link rental booking js file -->
  <script src="js/rentals.js"></script>
-
+          <!-- aos animation -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+            AOS.init();
+        </script>
 </body>
 </html>

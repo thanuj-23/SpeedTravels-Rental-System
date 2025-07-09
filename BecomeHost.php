@@ -1,13 +1,32 @@
-<!-- include header file -->
-<?php   include 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drive With Us - Speed Travels</title>
+  <!-- Global Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-<style>
-  <?php include './css/BecomeHost.css'; ?>
-</style>
+  <!-- Bootstrap & Plugins -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
 
-<!-- main content -- start---->
-<div>
-    <div class = "main" id="mainContent">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/BecomeHost.css">
+
+  <link rel="icon" href="img/logo2.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/BecomeHost.css" />
+</head>
+<body>
+  <?php include 'header.php'; ?>
+  <div class = "main" id="mainContent">
     <div class="description-section">
      <div class="container">   
       <div class="description-content">
@@ -17,41 +36,41 @@
       </div>
      </div> 
     </div>
-  <div class="container-lg">
+  <div class="container">
     <div class="benefits-section text-center py-5">
      <h2 class="benefits-title mb-5">Why Drive With Us</h2>
      <div class="row justify-content-center g-4">
-      <div class="col-xl-3 col-md col-sm-6">
+      <div class="col-xl-3 col-md-4 col-sm-6">
         <div class="benefit-box h-100">
          <h3>Income</h3>
          <p>Earn over Rs. 100,000 monthly with ease</p>
         </div>
       </div>
-     <div class="col-xl-3 col-md col-sm-6">
+     <div class="col-xl-3 col-md-4 col-sm-6">
       <div class="benefit-box h-100">
         <h3>Training</h3>
         <p>Get regular safety and driving programs</p>
       </div>
      </div>
-     <div class="col-xl-3 col-md col-sm-6">
+     <div class="col-xl-3 col-md-4 col-sm-6">
        <div class="benefit-box h-100">
         <h3>Rewards</h3>
         <p>Earn more with top ratings and bonuses</p>
        </div>
      </div>
-     <div class="col-xl-3 col-md col-sm-6">
+     <div class="col-xl-3 col-md-4 col-sm-6">
       <div class="benefit-box h-100">
         <h3>Low Commission</h3>
         <p>Pay Lesser Commission While Receiving Higher Earnings</p>
       </div>
      </div>
-     <div class="col-xl-3 col-md col-sm-6">
+     <div class="col-xl-3 col-md-4 col-sm-6">
       <div class="benefit-box h-100">
         <h3>Flexible Zones</h3>
         <p>Drive within your preferred areas</p>
       </div>
      </div>
-     <div class="col-xl-3 col-md col-sm-6">
+     <div class="col-xl-3 col-md-4 col-sm-6">
       <div class="benefit-box h-100">
         <h3>Priority</h3>
         <p>Top performers receive more ride requests and bookings</p>
@@ -169,15 +188,17 @@
     <div class="mt-4">
       <button id="backToHomeBtn" class="btn btn-custom px-4 py-2">Back to Home</button>
     </div>
-  </div>
-</div>
-<!-- main content -- end -->
-
-<script src="js/becomeHost.js"></script>
-<script src="js/districtSelect.js"></script>
-<script src="js/phoneInput.js"></script>
-<script src="js/vehicleYear.js"></script>
-<script src="js/hostMessage.js"></script>
-
-<!-- include footer file -->
+  </div>  
+<!--Footer-->
 <?php include 'footer.php'; ?>
+  <!--JS Files-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--<script src="js/phoneInput.js"></script>-->
+  <script src="js/vehicleYear.js"></script>
+  <script src="js/districtSelect.js" defer></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/becomeHost.js"></script>
+  <script src="js/hostMessage.js"></script>
+
+</body>
+</html>

@@ -1,7 +1,7 @@
-function scrollToForm() {
-  document.getElementById("host-form").scrollIntoView({ behavior: "smooth" });
-}
-
+  function scrollToForm() {
+    document.getElementById("host-form").scrollIntoView({ behavior: "smooth" });
+  }
+  
 document.addEventListener("DOMContentLoaded", function () {
   const boxes = document.querySelectorAll(".benefit-box");
 
@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   );
 
-  boxes.forEach((box, i) => {
-    box.style.transition = "transform 0.6s ease, opacity 0.6s ease";
-    box.style.transitionDelay = `${i * 0.2}s`; // smooth staggering
-    observer.observe(box);
-  });
+  boxes.forEach((box) => observer.observe(box));
+});
+boxes.forEach((box, i) => {
+  box.style.transitionDelay = `${i * 0.3}s`;
+  observer.observe(box);
 });

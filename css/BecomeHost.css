@@ -106,15 +106,12 @@ body {
   transform-origin: top;
    transition: transform 1.5s ease, opacity 1.5s ease;
   backface-visibility: hidden;
-  
-  transform: translateY(40px);
 }
 
 /* On scroll animation */
 .benefit-box.animate {
   opacity: 1;
   transform: rotateX(0deg);
-  transform: translateY(0);
 }
 
 /* On hover zoom only (do not override rotateX) */
