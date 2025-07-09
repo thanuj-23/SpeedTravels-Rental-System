@@ -12,11 +12,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/navigation.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/BecomeHost.css">
-
   <link rel="icon" href="img/logo2.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
@@ -25,7 +20,7 @@
   <link rel="stylesheet" href="css/BecomeHost.css" />
 </head>
 <body>
-  <?php include 'header.php'; ?>
+  <?php include 'header2.php'; ?>
   <div class = "main" id="mainContent">
     <div class="description-section">
      <div class="container">   

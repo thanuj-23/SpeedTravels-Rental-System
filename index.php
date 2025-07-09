@@ -112,7 +112,7 @@
     <section class="reviews-section" data-aos="fade-left" data-aos-duration="" style="margin-left:80px; margin-right:80px;">
         <script defer async src='https://cdn.trustindex.io/loader.js?f646916496036110d036012a70e'></script>
     </section>
-
+<br>
     <!-- CLIENT N HOST -->
             <!-- Rent Section (New) -->
             <section class="section rent-section" data-aos="fade-left" data-aos-duration="">
