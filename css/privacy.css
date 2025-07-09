@@ -1,0 +1,253 @@
+/* Base Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f8f9fb;
+    line-height: 1.6;
+}
+
+.privacy-container {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Typography */
+.privacy-container h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1c253d;
+    font-weight: 600;
+}
+
+.privacy-container h2 {
+    margin-top: 35px;
+    color: #1c253d;
+    font-size: 1.4rem;
+    border-left: 4px solid #a0e32c;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.privacy-container p {
+    color: #555;
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Lists */
+.privacy-container ul {
+    color: #555;
+    margin: 15px 0;
+    padding-left: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.privacy-container ul li {
+    margin-bottom: 8px;
+}
+
+/* Contact Info Section */
+.contact-section2 {
+  padding: 30px 10px;
+  background: #f9f9f9;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: nowrap; /* force single line on normal screens */
+  overflow-x: auto; /* allow scroll on smaller screens if needed */
+}
+
+.contact-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  padding: 20px 10px;
+  width: 160px; /* smaller fixed width */
+  min-height: 180px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.contact-card i {
+  font-size: 1.8rem;
+  color: #a0e32c;
+  margin-bottom: 10px;
+}
+
+.contact-card h3 {
+  font-size: 1rem;
+  color: #263150;
+  margin-bottom: 6px;
+}
+
+.contact-card p {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.4;
+  margin: 2px 0;
+}
+
+@media(max-width: 600px) {
+  .contact-cards {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .contact-card {
+    min-width: 150px;
+    flex-shrink: 0;
+  }
+}
+
+
+.centered {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+/* Animations */
+[data-aos] {
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .privacy-container {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .privacy-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .privacy-container h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .privacy-container {
+        padding: 20px 15px;
+    }
+    
+    .contact-info {
+        padding: 15px;
+    }
+}
+
+/* Add these new styles to your existing CSS */
+
+/* Topic Hover Animation */
+.privacy-container h2 {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform-origin: left center;
+    cursor: default;
+}
+
+.privacy-container h2:hover {
+    transform: translateX(10px) scale(1.02);
+    color: #2c7be5;
+    border-left-color: #2c7be5;
+}
+
+/* Content Animation */
+.privacy-container h2 + p,
+.privacy-container h2 + ul {
+    transition: all 0.5s ease-out;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Initial state for content (hidden slightly) */
+[data-aos].aos-animate h2 + p,
+[data-aos].aos-animate h2 + ul {
+    opacity: 0.9;
+    transform: translateY(5px);
+}
+
+/* Hover effect for content */
+.privacy-container h2:hover + p,
+.privacy-container h2:hover + ul,
+.privacy-container h2:hover ~ p:not(.centered),
+.privacy-container h2:hover ~ ul {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Pulse animation for contact info */
+.contact-info:hover {
+    animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(44, 123, 229, 0.4);
+    }
+    100% {
+        transform: scale(1.01);
+        box-shadow: 0 0 20px rgba(44, 123, 229, 0.2);
+    }
+}
+
+/* Subtle background highlight */
+.privacy-container h2:hover::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: linear-gradient(to bottom, #2c7be5, #a0e32c);
+    border-radius: 3px;
+}
+
+/* Modern list item animation */
+.privacy-container ul li {
+    position: relative;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.privacy-container ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #a0e32c;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.privacy-container ul li:hover {
+    transform: translateX(5px);
+    color: #1c253d;
+}
+
+.privacy-container ul li:hover::before {
+    color: #2c7be5;
+    transform: scale(1.5);
+}
+

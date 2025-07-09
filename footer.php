@@ -49,8 +49,8 @@
     <div class="footer-section">
       <h4>Company</h4>
       <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="AboutUs.php">About Us</a></li>
+        <li><a href="ContactUs.php">Contact Us</a></li>
         <li><a href="#">Feedbacks</a></li>
       </ul>
     </div>
@@ -58,7 +58,7 @@
     <div class="footer-section">
       <h4>Partners</h4>
       <ul>
-        <li><a href="#">Host</a></li>
+        <li><a href="BecomeHost.php">Host</a></li>
         <li><a href="#">Client</a></li>
       </ul>
     </div>
@@ -79,7 +79,7 @@
 
       <ul class="footer-links">
         <li><a href="terms.php">Terms & Conditions</a></li>
-        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="privacy.php">Privacy Policy</a></li>
       </ul>
 
       <div class="credits">

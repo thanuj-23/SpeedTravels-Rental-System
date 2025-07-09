@@ -49,8 +49,8 @@
         <ul class="nav-links">
             <li><a href="./index.php">Home</a></li>
             <li><a href="#" id="RentalBookingForm">Rentals </a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="./AboutUs.php">About Us</a></li>
+            <li><a href="./ContactUs.php">Contact Us</a></li>
             <li><a href="./FAQs.php">FAQs</a></li>
         </ul>
 
