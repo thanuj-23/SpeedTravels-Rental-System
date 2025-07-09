@@ -57,7 +57,7 @@
 
 
         <div class="auth-buttons">
-            <a href="#" class="auth-btn host-btn">Become a host</a>
+            <a href="./BecomeHost.php" class="auth-btn host-btn">Become a host</a>
         </div>
     </nav>
     <script src="js/navigation.js"></script>

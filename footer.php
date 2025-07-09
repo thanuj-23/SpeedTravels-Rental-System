@@ -78,7 +78,7 @@
       </div>
 
       <ul class="footer-links">
-        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="./terms.php">Terms & Conditions</a></li>
         <li><a href="#">Privacy Policy</a></li>
       </ul>
 
