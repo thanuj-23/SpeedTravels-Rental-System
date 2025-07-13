@@ -40,7 +40,7 @@
       <div class="faq-contact" data-aos="fade-out" data-aos-duration="">
         <h3>Still have questions?</h3>
         <p>Contact our support team for more information and assistance.</p>
-        <a href="/contact">Contact Us</a>
+        <a href="./ContactUs.php">Contact Us</a>
       </div>
     </div>
   </section>

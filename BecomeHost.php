@@ -77,7 +77,7 @@
 <div id="host-form" class="form-section mx-auto col-lg-8">
   <h2 class="form-title">Join With Us</h2>
   <p class="text-center mb-4">Provide the following details to start your journey with us</p>
-  <form action="#" method="POST">
+  <form id="hostForm" action="#" method="POST">
     <div class="form-group-section mb-5">
       <h4 class="section-heading">Personal Details</h4>
       <div class="row g-3">
@@ -96,6 +96,7 @@
         <div class="col-md-6">
           <label for="phone" class="form-label">Phone Number</label>
           <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+          <div id="phoneError" class="text-danger mt-1" style="font-size: 0.9rem;"></div>
         </div>
         <div class="col-md-6">
           <label for="province" class="form-label">Province</label>
@@ -177,18 +178,19 @@
   </form>
     </div>
   </div>
+</div>
     <div id="thankYouMessage" class="thankyou-container d-none">
     <h2 class="text-success fw-bold mb-3">Thank you for your interest!</h2>
     <p class="fs-5">Our team will review your details and get in touch within <strong>24 hours</strong>.</p>
     <div class="mt-4">
-      <button id="backToHomeBtn" class="btn btn-custom px-4 py-2">Back to Home</button>
+      <button id="backToHomeBtn" class="btn btn-custom px-4 py-2">Ok</button>
     </div>
   </div>  
-<!--Footer-->
-<?php include 'footer.php'; ?>
+  <!--Footer-->
+  <?php include 'footer.php'; ?>
   <!--JS Files-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!--<script src="js/phoneInput.js"></script>-->
+ 
   <script src="js/vehicleYear.js"></script>
   <script src="js/districtSelect.js" defer></script>
   <script src="js/navigation.js"></script>

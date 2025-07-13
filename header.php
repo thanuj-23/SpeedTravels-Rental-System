@@ -39,7 +39,7 @@
 
     <nav>
         <div class="nav-header">
-            <a href="index.php" class="logo">
+            <a href="./index.php" class="logo">
                 <img src="img/logo3.png" alt="Speed Travels Logo" />
             </a>
             <div class="menu-toggle">☰</div>

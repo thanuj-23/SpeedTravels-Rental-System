@@ -1,105 +1,64 @@
-
-document.addEventListener("DOMContentLoaded", function() {
-  // Initialize elements
-  const phoneInput = document.querySelector("#phone");
-  const form = document.querySelector("form");
-  const thankYouMessage = document.getElementById("thankYouMessage");
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("hostForm");
+  const phoneInputField = document.getElementById("phone");
+  const phoneError = document.getElementById("phoneError");
   const mainContent = document.getElementById("mainContent");
+  const thankYouMessage = document.getElementById("thankYouMessage");
   const backToHomeBtn = document.getElementById("backToHomeBtn");
 
   // Initialize intl-tel-input
-  const iti = window.intlTelInput(phoneInput, {
-    initialCountry: "lk", // Default to Sri Lanka
-    preferredCountries: ["lk", "us", "gb", "in"],
+  const iti = window.intlTelInput(phoneInputField, {
+    initialCountry: "lk",
+    preferredCountries: ["lk", "us", "in", "gb"],
     separateDialCode: true,
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
   });
 
-  // Update input with full number including dial code
-  phoneInput.addEventListener("change", function() {
-    phoneInput.value = iti.getNumber();
+  // Real-time phone number validation
+  phoneInputField.addEventListener("input", () => {
+    if (iti.isValidNumber()) {
+      phoneError.textContent = "";
+      phoneInputField.classList.remove("input-error");
+    }
   });
 
-  // Form submission
-  form.addEventListener("submit", function(e) {
+  // Form submission handler
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
-    
+
     // Validate phone number
-    if (!validatePhoneNumber(iti)) {
-      return false;
+    if (!iti.isValidNumber()) {
+      phoneError.textContent = "Please enter a valid phone number.";
+      phoneInputField.classList.add("input-error");
+      phoneInputField.scrollIntoView({ behavior: "smooth", block: "center" });
+      phoneInputField.focus();
+      return;
     }
 
-    showThankYouMessage();
-    
-    // Optional: Uncomment to actually submit the form to server
-    // form.submit();
+    // Clear errors if valid
+    phoneError.textContent = "";
+    phoneInputField.classList.remove("input-error");
+
+    // Show thank you modal and blur content
+    if (mainContent) {
+      mainContent.classList.add("blur-content");
+    }
+
+    if (thankYouMessage) {
+      thankYouMessage.classList.remove("d-none");
+      thankYouMessage.classList.add("thankyou-overlay");
+      thankYouMessage.scrollIntoView({ behavior: "smooth" });
+    }
   });
 
-  // Phone number validation function
-  function validatePhoneNumber(iti) {
-    if (!iti.isValidNumber()) {
-      
-      const phoneError = document.createElement('div');
-      phoneError.className = 'invalid-feedback d-block';
-      phoneError.textContent = 'Please enter a valid phone number';
-      
-      
-      const existingError = phoneInput.nextElementSibling;
-      if (existingError && existingError.classList.contains('invalid-feedback')) {
-        existingError.remove();
-      }
-      
-      phoneInput.classList.add('is-invalid');
-      phoneInput.insertAdjacentElement('afterend', phoneError);
-      
-      
-      phoneInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      return false;
-    }
-    
-    
-    phoneInput.classList.remove('is-invalid');
-    const existingError = phoneInput.nextElementSibling;
-    if (existingError && existingError.classList.contains('invalid-feedback')) {
-      existingError.remove();
-    }
-    
-    return true;
-  }
+  // Handle Back to Home or close
+  backToHomeBtn?.addEventListener("click", function () {
+    // Remove overlay and blur (if you want to reset without page reload)
+    thankYouMessage.classList.add("d-none");
+    thankYouMessage.classList.remove("thankyou-overlay");
+    mainContent?.classList.remove("blur-content");
 
-  
-  function showThankYouMessage() {
-    // Hide all content
-    mainContent.style.display = "none";
-    
-    thankYouMessage.classList.remove("d-none");
-    thankYouMessage.classList.add("fade-in");
-    
-    thankYouMessage.scrollIntoView({ behavior: 'smooth' });
-  }
-
-  // Back to Home button functionality
-  if (backToHomeBtn) {
-    backToHomeBtn.addEventListener("click", function() {
-      // Show the main content again
-      mainContent.style.display = "block";
-      
-      thankYouMessage.classList.add("d-none");
-      thankYouMessage.classList.remove("fade-in");
-      
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      
-      // Optional: Reset the form if needed
-      // form.reset();
-      
-      window.location.href = "index.php";
-    });
-  }
-
-  // Scroll to form function (used by Join Now button)
-  window.scrollToForm = function() {
-    document.getElementById('host-form').scrollIntoView({ 
-      behavior: 'smooth' 
-    });
-  };
+    // Or redirect to home:
+    window.location.href = "index.php";
+  });
 });

@@ -1,11 +1,11 @@
 <?php
 
-   // Sample only: Replace this with real DB fetch later
+   // Sample only: Replace this with real DB fetch later(Nirmal)
   $booking = [
-    'vehicle_image' => 'bus.png',
-    'vehicle_name' => 'Luxury Bus',
+    'vehicle_image' => 'car.png',
+    'vehicle_name' => 'Toyota BYD',
     'distance' => '120 km',
-    'passengers' => 40,
+    'passengers' => '1-3',
     'price' => '15,000 LKR',
     'pickup_location' => 'Colombo',
     'drop_location' => 'Kandy',
@@ -88,7 +88,7 @@
           </div>
           <div class="form-group">
             <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" class="form-input" maxlength="15"required />
+            <input type="tel" id="phone" name="phone" class="form-input" maxlength="10"required />
           </div>
         </div>
         <div class="province-district-row">
@@ -117,7 +117,7 @@
         <label>Your Message</label>
         <textarea name="message" required></textarea>
         <div class="form-buttons">
-          <button type="button" class="prev-btn">Back</button>
+          <a href="SearchRental.php" class="prev-btn">Back</a>
           <button type="submit" class="submit-btn">Place Booking</button>
         </div>
       </form>

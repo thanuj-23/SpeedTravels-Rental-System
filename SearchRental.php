@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>                                
                             </div>
                             <div class="row">
-                                <button class="btn bookingBtn">Booking Now</button>
+                                <a href="bookingDetails.php" class="btn bookingBtn">Booking Now</a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>                                
                             </div>
                             <div class="row">
-                                <button class="btn bookingBtn">Booking Now</button>
+                                <a href="bookingDetails.php" class="btn bookingBtn">Booking Now</a>
                             </div>
                         </div>
                     </div>
