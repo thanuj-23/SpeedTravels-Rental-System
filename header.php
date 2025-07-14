@@ -37,29 +37,29 @@
 
     <!-- Navigation Bar-->
 
-    <nav>
-        <div class="nav-header">
-            <a href="./index.php" class="logo">
-                <img src="img/logo3.png" alt="Speed Travels Logo" />
-            </a>
-            <div class="menu-toggle">☰</div>
-        </div>
+  <nav>
+    <div class="nav-header">
+      <a href="./index.php" class="logo">
+        <img src="img/logo3.png" alt="Speed Travels Logo" />
+      </a>
+      <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </div>
 
-        <ul class="nav-links">
-            <li><a href="./index.php">Home</a></li>
-            <li><a href="#" id="RentalBookingForm">Rentals </a></li>
-            <li><a href="./AboutUs.php">About Us</a></li>
-            <li><a href="./ContactUs.php">Contact Us</a></li>
-            <li><a href="./FAQs.php">FAQs</a></li>
-        </ul>
+    <ul class="nav-links">
+      <li><a href="./index.php">Home</a></li>
+      <li><a href="#" id="RentalBookingForm">Rentals</a></li>
+      <li><a href="./AboutUs.php">About Us</a></li>
+      <li><a href="./ContactUs.php">Contact Us</a></li>
+      <li><a href="./FAQs.php">FAQs</a></li>
+    </ul>
 
+    <div class="auth-buttons">
+      <a href="BecomeHost.php" class="auth-btn host-btn">Become a host</a>
+    </div>
+  </nav>
 
-
-        <div class="auth-buttons">
-            <a href="BecomeHost.php" class="auth-btn host-btn">Become a host</a>
-        </div>
-    </nav>
-    <script src="js/navigation.js"></script>
+  <!-- Navigation JS -->
+  <script src="js/navigation.js"></script>
 
     <!-- Rental booking form ------ start -->
     <div class="" style="display: none;" id="searchForm">

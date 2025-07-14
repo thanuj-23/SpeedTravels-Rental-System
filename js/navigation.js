@@ -1,21 +1,15 @@
-document.querySelector('.menu-toggle').addEventListener('click', function() {
-  document.querySelector('.nav-links').classList.toggle('show');
-  document.querySelector('.auth-buttons').classList.toggle('show');
-});
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  const authButtons = document.querySelector('.auth-buttons');
 
-// Optional: Enable dropdown click toggle in mobile
-const rentalsLink = document.querySelector('.nav-links li:nth-child(2) > a');
-const dropdown = document.querySelector('.dropdown-content');
+  menuToggle.addEventListener('click', function() {
+    navLinks.classList.toggle('show');
+    authButtons.classList.toggle('show');
+  });
 
-rentalsLink.addEventListener('click', function(e) {
-  if(window.innerWidth <= 992) {
-    e.preventDefault();
-    dropdown.style.display = dropdown.style.display === 'flex' ? 'none' : 'flex';
-  }
-});
-
-//hide navigation when scroll down
- let prevScrollPos = window.pageYOffset;
+  // Hide nav on scroll down
+  let prevScrollPos = window.pageYOffset;
   const navbar = document.querySelector("nav");
 
   window.addEventListener("scroll", function() {
@@ -29,4 +23,4 @@ rentalsLink.addEventListener('click', function(e) {
 
     prevScrollPos = currentScrollPos;
   });
-
+});
