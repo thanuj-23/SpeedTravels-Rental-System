@@ -134,7 +134,7 @@
                 <div class="section-content">
                     <h2>Become a Host</h2>
                     <p>Unlock new income opportunities by listing your vehicle on Speed Travels. Rent out your car safely to verified customers and earn without any hassle.</p>
-                    <a href="#" class="learn-more host-btn">Start Hosting →</a>
+                    <a href="BecomeHost.php" class="learn-more host-btn">Start Hosting →</a>
                 </div>
             </section>
         </div>

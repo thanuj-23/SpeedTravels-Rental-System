@@ -22,10 +22,7 @@ body {
   animation: driveAnimation 20s linear infinite; /* Added animation */
 }
 
-@keyframes driveAnimation {
-  0% { background-size: 100%; }
-  100% { background-size: 150%; }
-}
+
 .description-section .container {
   position: relative;
   z-index: 2;
