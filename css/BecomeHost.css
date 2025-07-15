@@ -385,21 +385,22 @@ body {
 }
 /* Responsive Styles */
 @media (max-width: 992px) {
-  .description--title {
+  .description-title {
     font-size: 2.2rem;
   }
   
-  .description--subtitle {
+  .description-subtitle {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 768px) {
-  .description--section {
+@media (max-width: 1200px) {
+  .description-section {
     padding: 70px 20px;
+    height: auto;
   }
   
-  .description--title {
+  .description-title {
     font-size: 1.8rem;
   }
   
