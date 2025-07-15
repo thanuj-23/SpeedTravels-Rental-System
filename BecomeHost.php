@@ -1,3 +1,4 @@
+  <?php include 'header2.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +21,6 @@
   <link rel="stylesheet" href="css/BecomeHost.css" />
 </head>
 <body>
-  <?php include 'header2.php'; ?>
   <div class = "main" id="mainContent">
     <div class="description-section">
      <div class="container">   
@@ -193,7 +193,6 @@
  
   <script src="js/vehicleYear.js"></script>
   <script src="js/districtSelect.js" defer></script>
-  <script src="js/navigation.js"></script>
   <script src="js/becomeHost.js"></script>
   <script src="js/hostMessage.js"></script>
 

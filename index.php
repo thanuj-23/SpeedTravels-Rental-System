@@ -3,7 +3,7 @@
 
   <!--Home 1st Section-->
   <section id="hero">
-        <div class="container" data-aos="fade-up" data-aos-duration="">
+        <div class="container" data-aos="fade-up" data-aos-duration="" >
             <div class="text-content">
                 <h2>Drive Your Journey, Your Way</h2>
                 <h1>Locally grown travel and tour service provider</h1>

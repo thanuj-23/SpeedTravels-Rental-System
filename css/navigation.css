@@ -129,11 +129,13 @@ nav {
   cursor: pointer;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   nav {
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .nav-header {
@@ -141,6 +143,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    
+    
   }
 
   .logo {
