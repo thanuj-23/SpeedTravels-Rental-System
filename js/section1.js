@@ -37,3 +37,5 @@ flatpickr("#date-range", {
                 searchBar.style.animation = 'pulseHighlight 3s ease-in-out 1';
             }
         });
+
+

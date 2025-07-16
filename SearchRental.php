@@ -141,12 +141,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="col-2"><i class="bi bi-telephone"></i></div>
                     <div class="col-10"><p>Hot-line</p></div>
                 </div>
-                <p class="number" data-aos="fade-up" data-aos-duration="">0778907002</p>
+                <p class="number" data-aos="fade-up" data-aos-duration="">0729969961</p>
                 <div  data-aos="fade-up" data-aos-duration="" class="row helpDetails">
                     <div class="col-2"><i class="bi bi-whatsapp"></i></div>
                     <div class="col-10"><p>whatsapp</p></div>
                 </div>
-                <p class="number" data-aos="fade-up" data-aos-duration="">0778907002</p>
+                <p class="number" data-aos="fade-up" data-aos-duration="">0729969961</p>
             </div>
         </div>
     </div>

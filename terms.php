@@ -42,35 +42,6 @@
   <h2 data-aos="fade-up" data-aos-delay="200">9. Governing Law</h2>
   <p data-aos="fade-up" data-aos-delay="200">These Terms are governed by the laws of Sri Lanka. Any disputes arising shall be resolved under Sri Lankan jurisdiction.</p>
 
-  <h2 data-aos="fade-up" data-aos-delay="200">10. Contact Us</h2>
-
-  <!-- Contact Us Section -->
-  <section class="contact-section2" data-aos="fade-out">
-    <div class="contact-header">
-      <h2>We’re here to help</h2>
-    </div>
-    <div class="contact-cards">
-      <div class="contact-card" data-aos="fade-up">
-        <i class="fas fa-envelope"></i>
-        <h3>Email</h3>
-        <p>info@speed-travels.com</p>
-        <p>We'd love to hear from you!</p>
-      </div>
-      <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
-        <i class="fas fa-phone-alt"></i>
-        <h3>Phone</h3>
-        <p>+94 72 996 9961</p>
-        <p>7 days a week</p>
-      </div>
-      <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
-        <i class="fas fa-map-marker-alt"></i>
-        <h3>Address</h3>
-        <p>236/1A, 3rd Lane,</p>
-        <p>Pragathi Mawatha, Homagama</p>
-      </div>
-    </div>
-  </section>
-
   <p class="centered" data-aos="fade-up">By using Speed Travels services, you confirm you have read, understood, and agree to these Terms and Conditions.</p>
 </div>
 

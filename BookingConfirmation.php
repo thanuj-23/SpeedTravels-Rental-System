@@ -75,7 +75,7 @@
           <div class="detail-row"><div class="label">Your Message:</div><div class="value"></div></div>
         </div>
 
-        <button href="../SpeedTravels-Rental-System/index.php" class="explore-button">Back to home</button>
+        <button href="/index.php" class="explore-button">Back to home</button>
 
       </div>
     </div>

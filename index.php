@@ -24,48 +24,55 @@
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<!--search bar-->
-<div class="compact-search-bar" id="searchBar" data-aos="zoom-out" data-aos-duration="">
-        <div class="compact-search-container">
-            <!-- Location Field -->
-            <div class="compact-search-field">
-                <label>Location</label>
-                <input type="text" id="pickup-location" placeholder="Select Your City">
-            </div>
-            
-            <!-- Pickup Field -->
-            <div class="compact-search-field">
-                <label>PickUp</label>
-                <input type="text" id="drop-location" placeholder="Select Your City">
-            </div>
-            
-            <!-- Car Type Field -->
-            <div class="compact-search-field">
-                <label>Vehicle Type</label>
-                <select id="vehicle-type">
-                    <option value="">Choose Vehicle Type </option>
-                    <option>Car with Driver</option>
-                    <option>Van with Driver</option>
-                    <option>Bus with Driver</option>
-                    <option>Truck with Driver</option>
-                </select>
-            </div>
-            
-            <!-- Date Field -->
-            <div class="compact-search-field">
-                <label>Pick Up - Drop Off</label>
-                <div class="date-range-input">
-                    <input type="text" id="date-range" placeholder="Select Date Range" readonly>
-                    <i class="fas fa-calendar-alt calendar-icon"></i>
-                </div>
-            </div>
-            
-            <!-- Search Button -->
-            <button class="compact-search-btn">
-                <i class="fas fa-search"></i> Search
-            </button>
-        </div>
-    </div>
+<!--search bar -->
+<div class="compact-search-bar" id="searchBar">
+  <div class="compact-search-container">
+    <form action="SearchRental.php" method="post" class="horizontal-search-form">
+      <!-- Vehicle Type -->
+      <div class="compact-search-field">
+        <label>Vehicle Type</label>
+        <select id="vehicle-type" name="vehicleType" required>
+          <option value="">Choose Type</option>
+          <option value="Car with Driver">Car</option>
+          <option value="Van with Driver">Van</option>
+          <option value="Bus with Driver">Bus</option>
+          <option value="Truck with Driver">Truck</option>
+        </select>
+      </div>
+      
+      <!-- Pickup Location -->
+      <div class="compact-search-field">
+        <label>Pickup</label>
+        <input type="text" id="pickup-location" placeholder="City" name="pickupLocation" required>
+      </div>
+      
+      <!-- Drop Location -->
+      <div class="compact-search-field">
+        <label>Drop</label>
+        <input type="text" id="drop-location" placeholder="City" name="dropLocation" required>
+      </div>
+      
+      <!-- Pickup Date -->
+      <div class="compact-search-field">
+        <label>Pickup Date</label>
+        <input type="date" id="pickup-date" name="pickupDate" required>
+      </div>
+      
+      <!-- Pickup Time -->
+      <div class="compact-search-field">
+        <label>Time</label>
+        <input type="time" id="pickup-time" name="pickupTime">
+      </div>
+      
+      <!-- Search Button -->
+      <div class="compact-search-field">
+        <button type="submit" class="compact-search-btn">
+          <i class="fas fa-search"></i> Search
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
@@ -73,9 +80,9 @@
 <br><br>
 
     <!--section2 -->
-    <section class="how-it-works" data-aos="fade-up" data-aos-duration="">
-    <h2 class="section-title" data-aos="fade-up" data-aos-duration="">HOW IT WORKS</h2>
-    <p class="section-subtitle" data-aos="fade-up" data-aos-duration="">Follow these simple steps to book your vehicle</p>
+    <section class="how-it-works">
+    <h2 class="section-title">HOW IT WORKS</h2>
+    <p class="section-subtitle">Follow these simple steps to book your vehicle</p>
     <br><br>
     <div class="steps-container" data-aos="slide-up" data-aos-duration="">
         <div class="step">
@@ -146,3 +153,4 @@
 
 <!-- include footer file -->
 <?php include 'footer.php'; ?>
+
