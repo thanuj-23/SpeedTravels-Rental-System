@@ -120,7 +120,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 </div>                                
                             </div>
                             <div class="row">
-                                <a href="bookingDetails.php" class="btn bookingBtn">Booking Now</a>
+                                <a href="./BookingDetails.php" class="btn bookingBtn">Booking Now</a>
                             </div>
                         </div>
                     </div>

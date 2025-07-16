@@ -129,14 +129,14 @@
                     <a href="#" class="learn-more rent-btn">Explore Rentals →</a>
                 </div>
                 <div class="section-image">
-                    <img src="../SpeedTravels-Rental-System/img/img1.jpg" alt="Rent with PickMe">
+                    <img src="./img/img1.jpg" alt="Rent with PickMe">
                 </div>
             </section>
             
             <!-- Host Section (New) -->
             <section class="section host-section" data-aos="fade-right" data-aos-duration="">
                 <div class="section-image">
-                    <img src="../SpeedTravels-Rental-System/img/img2.jpg" alt="Host with PickMe">
+                    <img src="./img/img2.jpg" alt="Host with PickMe">
                 </div>
                 <div class="section-content">
                     <h2>Become a Host</h2>

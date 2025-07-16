@@ -97,7 +97,7 @@ body {
 
 .contact-card h3 {
   font-size: 1rem;
-  color: #263150;
+  color: #93e604;
   margin-bottom: 6px;
 }
 
@@ -170,8 +170,8 @@ body {
 
 .privacy-container h2:hover {
     transform: translateX(10px) scale(1.02);
-    color: #2c7be5;
-    border-left-color: #2c7be5;
+    color: #93e604;
+    border-left-color: #93e604;
 }
 
 /* Content Animation */
@@ -206,11 +206,11 @@ body {
 @keyframes pulse {
     0% {
         transform: scale(1);
-        box-shadow: 0 0 0 rgba(44, 123, 229, 0.4);
+        box-shadow: 0 0 0 #93e604;
     }
     100% {
         transform: scale(1.01);
-        box-shadow: 0 0 20px rgba(44, 123, 229, 0.2);
+        box-shadow: 0 0 20px #93e604;
     }
 }
 
@@ -222,33 +222,6 @@ body {
     top: 0;
     height: 100%;
     width: 5px;
-    background: linear-gradient(to bottom, #2c7be5, #a0e32c);
+    background: linear-gradient(to bottom, #93e604, #a0e32c);
     border-radius: 3px;
 }
-
-/* Modern list item animation */
-.privacy-container ul li {
-    position: relative;
-    padding-left: 15px;
-    transition: all 0.3s ease;
-}
-
-.privacy-container ul li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #a0e32c;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
-
-.privacy-container ul li:hover {
-    transform: translateX(5px);
-    color: #1c253d;
-}
-
-.privacy-container ul li:hover::before {
-    color: #2c7be5;
-    transform: scale(1.5);
-}
-

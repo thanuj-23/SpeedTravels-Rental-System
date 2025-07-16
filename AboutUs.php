@@ -35,9 +35,9 @@
 
         <!-- Auto Scrolling Images -->
         <div class="image-row">
-          <img src="../SpeedTravels-Rental-System/img/gota1.jpg" alt="Image 1" />
-          <img src="../SpeedTravels-Rental-System/img/gota2.jpg" alt="Image 2" />
-          <img src="../SpeedTravels-Rental-System/img/gota3.jpg" alt="Image 3" />
+          <img src="./img/gota1.jpg" alt="Image 1" />
+          <img src="./img/gota2.jpg" alt="Image 2" />
+          <img src="./img/gota3.jpg" alt="Image 3" />
         </div>
 
         <div class="dynamic-caption-container">
@@ -66,17 +66,17 @@
     <div class="auto-scroll-gallery">
       <div class="scroller" data-direction="left" data-speed="slow">
         <div class="scroller__inner">
-          <img src="../SpeedTravels-Rental-System/img/bus01.jpg" alt="Speed Travels Service 1">
-          <img src="../SpeedTravels-Rental-System/img/bus2.jpg" alt="Speed Travels Service 2">
-          <img src="../SpeedTravels-Rental-System/img/bus3.jpg" alt="Speed Travels Fleet">
-          <img src="../SpeedTravels-Rental-System/img/bus4.jpg" alt="Happy Customers">
-          <img src="../SpeedTravels-Rental-System/img/bus5.jpg" alt="Tourism Services">
-          <img src="../SpeedTravels-Rental-System/img/bus6.jpg" alt="Professional Drivers">
-          <img src="../SpeedTravels-Rental-System/img/bus7.jpg" alt="Vehicle Interior">
+          <img src="./img/bus01.jpg" alt="Speed Travels Service 1">
+          <img src="./img/bus2.jpg" alt="Speed Travels Service 2">
+          <img src="./img/bus3.jpg" alt="Speed Travels Fleet">
+          <img src="./img/bus4.jpg" alt="Happy Customers">
+          <img src="./img/bus5.jpg" alt="Tourism Services">
+          <img src="./img/bus6.jpg" alt="Professional Drivers">
+          <img src="./img/bus7.jpg" alt="Vehicle Interior">
           <!-- Duplicate for seamless looping -->
-          <img src="../SpeedTravels-Rental-System/img/bus01.jpg" alt="Speed Travels Service 1">
-          <img src="../SpeedTravels-Rental-System/img/bus2.jpg" alt="Speed Travels Service 2">
-          <img src="../SpeedTravels-Rental-System/img/bus3.jpg" alt="Speed Travels Fleet">
+          <img src="./img/bus01.jpg" alt="Speed Travels Service 1">
+          <img src="./img/bus2.jpg" alt="Speed Travels Service 2">
+          <img src="./img/bus3.jpg" alt="Speed Travels Fleet">
         </div>
       </div>
     </div>
@@ -113,9 +113,9 @@
     <section class="customer-section">
       <div class="customer-slideshow">
         <div class="slideshow-track">
-          <img src="img/trav1.jpg" alt="Happy Customer 1">
-          <img src="img/trav2.jpg" alt="Happy Customer 2">
-          <img src="img/trav3.jpg" alt="Happy Customer 3">
+          <img src="./img/trav1.jpg" alt="Happy Customer 1">
+          <img src="./img/trav2.jpg" alt="Happy Customer 2">
+          <img src="./img/trav3.jpg" alt="Happy Customer 3">
         </div>
       </div>
       <div class="customer-content">
